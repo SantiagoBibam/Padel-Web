@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Asociacion Padel Argentino</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  
+    <h1 class="header">
+    <img src="https://padel.org.ar/wp-content/uploads/2020/01/cropped-logo-apa.jpg" height="70" > Asociación Padel Argentino
+    </h1>
+    <div style="width: 20%; float:left">
+    <h2 class="subtitle">Rankings</h2>
+    <p><select name="categoriesSelect" id="categoriesSelect"></select></p>
+    <div class="div">
+        <table border="1" class="toprankingtable">
+        <tr>
+            <td>Ranking</td>
+            <td>Jugador</td>
+            <td>Puntos</td>
+            <td></td>
+        </tr>
+        <tbody name="rankingtable" id="rankingtable" class="rankingtable">
+        </tbody>
+        </table>
+        <p align="left">
+            <button id="suscribePlayer" onclick= "window.location = 'C:/Users/bajer/Documents/Programacion/Proyectos/PadelWeb/alta.html'">Alta de jugador</button><br><br>
+            <button id="suscribeCategory" onclick= "window.location = 'C:/Users/bajer/Documents/Programacion/Proyectos/PadelWeb/abmCategoria.html'">ABM categorías</button>
+        </p>
+    </div>
+    </div>
+    <div class="div" style="width: 20%; float:left">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_897218-MLA42941407007_072020-O.jpg" height="600">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
